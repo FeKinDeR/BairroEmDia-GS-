@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1200" viewBox="0 0 1500 1200"><rect width="100%" height="100%" fill="#f5f5ef"/><style>text{font-family:Arial,sans-serif;fill:#173c32} .linha{font-size:14px} .titulo{font-size:20px;font-weight:bold}</style><text x="40" y="42" font-size="27" font-weight="bold">Bairro em Dia | UML — entidades (1/2)</text>
+<path d="M250 390 L250 480" stroke="#176747" stroke-width="2" fill="none"/><text x="255.0" y="427.0" font-size="14">Morador 1 — 0..* Ocorrencia</text>
+<path d="M1000 300 L650 500" stroke="#176747" stroke-width="2" fill="none"/><text x="830.0" y="392.0" font-size="14">Categoria 1 — 0..* Ocorrencia</text>
+<path d="M660 650 L830 650" stroke="#176747" stroke-width="2" fill="none"/><text x="750.0" y="642.0" font-size="14">Ocorrencia 1 — 0..* Atualizacao</text>
+<rect x="40" y="100" width="620" height="328" rx="8" fill="white" stroke="#91aa97"/><text class="titulo" x="55" y="129">Morador</text><path d="M40 142 H660" stroke="#91aa97"/>
+<text class="linha" x="54" y="164">- id: int</text>
+<text class="linha" x="54" y="185">- nome: String</text>
+<text class="linha" x="54" y="206">- email: String</text>
+<text class="linha" x="54" y="227">- bairro: String</text>
+<text class="linha" x="54" y="248">+ Morador(int, String, String, String)</text>
+<text class="linha" x="54" y="269">+ getId(): int</text>
+<text class="linha" x="54" y="290">+ setId(int): void</text>
+<text class="linha" x="54" y="311">+ getNome(): String</text>
+<text class="linha" x="54" y="332">+ setNome(String): void</text>
+<text class="linha" x="54" y="353">+ getEmail(): String</text>
+<text class="linha" x="54" y="374">+ setEmail(String): void</text>
+<text class="linha" x="54" y="395">+ getBairro(): String</text>
+<text class="linha" x="54" y="416">+ setBairro(String): void</text>
+<rect x="830" y="100" width="620" height="202" rx="8" fill="white" stroke="#91aa97"/><text class="titulo" x="845" y="129">Categoria</text><path d="M830 142 H1450" stroke="#91aa97"/>
+<text class="linha" x="844" y="164">- id: int</text>
+<text class="linha" x="844" y="185">- nome: String</text>
+<text class="linha" x="844" y="206">+ Categoria(int, String)</text>
+<text class="linha" x="844" y="227">+ getId(): int</text>
+<text class="linha" x="844" y="248">+ setId(int): void</text>
+<text class="linha" x="844" y="269">+ getNome(): String</text>
+<text class="linha" x="844" y="290">+ setNome(String): void</text>
+<rect x="40" y="480" width="620" height="517" rx="8" fill="white" stroke="#91aa97"/><text class="titulo" x="55" y="509">Ocorrencia</text><path d="M40 522 H660" stroke="#91aa97"/>
+<text class="linha" x="54" y="544">- id: int</text>
+<text class="linha" x="54" y="565">- titulo: String</text>
+<text class="linha" x="54" y="586">- descricao: String</text>
+<text class="linha" x="54" y="607">- localizacao: String</text>
+<text class="linha" x="54" y="628">- status: String</text>
+<text class="linha" x="54" y="649">- morador: Morador</text>
+<text class="linha" x="54" y="670">- categoria: Categoria</text>
+<text class="linha" x="54" y="691">+ Ocorrencia(int, String, String, String, String, Morador, Categoria)</text>
+<text class="linha" x="54" y="712">+ getId(): int</text>
+<text class="linha" x="54" y="733">+ setId(int): void</text>
+<text class="linha" x="54" y="754">+ getTitulo(): String</text>
+<text class="linha" x="54" y="775">+ setTitulo(String): void</text>
+<text class="linha" x="54" y="796">+ getDescricao(): String</text>
+<text class="linha" x="54" y="817">+ setDescricao(String): void</text>
+<text class="linha" x="54" y="838">+ getLocalizacao(): String</text>
+<text class="linha" x="54" y="859">+ setLocalizacao(String): void</text>
+<text class="linha" x="54" y="880">+ getStatus(): String</text>
+<text class="linha" x="54" y="901">+ setStatus(String): void</text>
+<text class="linha" x="54" y="922">+ getMorador(): Morador</text>
+<text class="linha" x="54" y="943">+ setMorador(Morador): void</text>
+<text class="linha" x="54" y="964">+ getCategoria(): Categoria</text>
+<text class="linha" x="54" y="985">+ setCategoria(Categoria): void</text>
+<rect x="830" y="480" width="620" height="328" rx="8" fill="white" stroke="#91aa97"/><text class="titulo" x="845" y="509">Atualizacao</text><path d="M830 522 H1450" stroke="#91aa97"/>
+<text class="linha" x="844" y="544">- id: int</text>
+<text class="linha" x="844" y="565">- ocorrencia: Ocorrencia</text>
+<text class="linha" x="844" y="586">- data: String</text>
+<text class="linha" x="844" y="607">- mensagem: String</text>
+<text class="linha" x="844" y="628">+ Atualizacao(int, Ocorrencia, String, String)</text>
+<text class="linha" x="844" y="649">+ getId(): int</text>
+<text class="linha" x="844" y="670">+ setId(int): void</text>
+<text class="linha" x="844" y="691">+ getOcorrencia(): Ocorrencia</text>
+<text class="linha" x="844" y="712">+ setOcorrencia(Ocorrencia): void</text>
+<text class="linha" x="844" y="733">+ getData(): String</text>
+<text class="linha" x="844" y="754">+ setData(String): void</text>
+<text class="linha" x="844" y="775">+ getMensagem(): String</text>
+<text class="linha" x="844" y="796">+ setMensagem(String): void</text>
+</svg>

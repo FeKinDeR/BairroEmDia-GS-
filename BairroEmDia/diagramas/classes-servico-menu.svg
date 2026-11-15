@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850"><rect width="100%" height="100%" fill="#f5f5ef"/><style>text{font-family:Arial,sans-serif;fill:#173c32} .linha{font-size:14px} .titulo{font-size:20px;font-weight:bold}</style><text x="40" y="42" font-size="27" font-weight="bold">Bairro em Dia | UML — serviço e menu (2/2)</text>
+<path d="M950 650 L890 650" stroke="#176747" stroke-width="2" fill="none"/><text x="925.0" y="642.0" font-size="14">usa</text>
+<rect x="40" y="110" width="850" height="412" rx="8" fill="white" stroke="#91aa97"/><text class="titulo" x="55" y="139">BairroService</text><path d="M40 152 H890" stroke="#91aa97"/>
+<text class="linha" x="54" y="174">+ BairroService()</text>
+<text class="linha" x="54" y="195">- List&lt;Morador&gt; moradores</text>
+<text class="linha" x="54" y="216">- List&lt;Categoria&gt; categorias</text>
+<text class="linha" x="54" y="237">- List&lt;Ocorrencia&gt; ocorrencias</text>
+<text class="linha" x="54" y="258">- List&lt;Atualizacao&gt; atualizacoes</text>
+<text class="linha" x="54" y="279">- int proximoMorador</text>
+<text class="linha" x="54" y="300">- texto(String valor, int minimo): String</text>
+<text class="linha" x="54" y="321">+ cadastrarMorador(String nome,String email,String bairro): Morador</text>
+<text class="linha" x="54" y="342">+ listarMoradores(): List&lt;Morador&gt;</text>
+<text class="linha" x="54" y="363">+ listarCategorias(): List&lt;Categoria&gt;</text>
+<text class="linha" x="54" y="384">+ listarOcorrencias(): List&lt;Ocorrencia&gt;</text>
+<text class="linha" x="54" y="405">+ buscarOcorrencia(int id): Ocorrencia</text>
+<text class="linha" x="54" y="426">+ cadastrarOcorrencia(String titulo,String descricao,String local,int moradorId,int categoriaId): Ocorrencia</text>
+<text class="linha" x="54" y="447">+ atualizarOcorrencia(int id,String status,String mensagem): void</text>
+<text class="linha" x="54" y="468">+ adicionarAtualizacao(int id,String mensagem): void</text>
+<text class="linha" x="54" y="489">+ listarAtualizacoes(int id): List&lt;Atualizacao&gt;</text>
+<text class="linha" x="54" y="510">+ removerOcorrencia(int id): void</text>
+<rect x="950" y="110" width="510" height="181" rx="8" fill="white" stroke="#91aa97"/><text class="titulo" x="965" y="139">Main</text><path d="M950 152 H1460" stroke="#91aa97"/>
+<text class="linha" x="964" y="174">- Scanner entrada</text>
+<text class="linha" x="964" y="195">- ler(String mensagem): String</text>
+<text class="linha" x="964" y="216">- numero(String mensagem): int</text>
+<text class="linha" x="964" y="237">- mostrar(Ocorrencia o): void</text>
+<text class="linha" x="964" y="258">+ executar(): void</text>
+<text class="linha" x="964" y="279">+ main(String[] args): void</text>
+</svg>

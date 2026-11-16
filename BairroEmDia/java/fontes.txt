@@ -1,0 +1,6 @@
+C:\Users\User\Documents\GitHub\BairroEmDia-GS-\BairroEmDia\java\src\br\com\bairroemdia\Main.java
+C:\Users\User\Documents\GitHub\BairroEmDia-GS-\BairroEmDia\java\src\br\com\bairroemdia\modelo\Atualizacao.java
+C:\Users\User\Documents\GitHub\BairroEmDia-GS-\BairroEmDia\java\src\br\com\bairroemdia\modelo\Categoria.java
+C:\Users\User\Documents\GitHub\BairroEmDia-GS-\BairroEmDia\java\src\br\com\bairroemdia\modelo\Morador.java
+C:\Users\User\Documents\GitHub\BairroEmDia-GS-\BairroEmDia\java\src\br\com\bairroemdia\modelo\Ocorrencia.java
+C:\Users\User\Documents\GitHub\BairroEmDia-GS-\BairroEmDia\java\src\br\com\bairroemdia\servico\BairroService.java
